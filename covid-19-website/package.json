@@ -1,12 +1,11 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "covid-19-dashboard",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "COVID - 19 Dashboard",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Oskar Schloesinger <o.schloesinger@gmx.de>",
   "dependencies": {
-    "@carbon/icons": "10.9.1",
-    "@carbon/icons-react": "10.9.1",
+    "carbon-icons": "7.0.7",
     "carbon-components": "10.10.1",
     "carbon-components-react": "7.10.1",
     "gatsby": "^2.19.43",
@@ -14,6 +13,7 @@
     "gatsby-plugin-manifest": "^2.2.47",
     "gatsby-plugin-offline": "^3.0.40",
     "gatsby-plugin-react-helmet": "^3.1.23",
+    "gatsby-plugin-sass": "2.0.11",
     "gatsby-plugin-sharp": "^2.4.12",
     "gatsby-source-filesystem": "^2.1.55",
     "gatsby-transformer-sharp": "^2.3.18",
@@ -24,7 +24,10 @@
     "styled-components": "^5.0.1"
   },
   "devDependencies": {
-    "prettier": "^1.19.1"
+    "prettier": "^1.19.1",
+    "jest": "25.1.0",
+    "node-sass": "^4.6.0",
+    "sass-loader": "^6.0.6"
   },
   "keywords": [
     "gatsby"
