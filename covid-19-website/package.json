@@ -8,7 +8,7 @@
     "carbon-icons": "7.0.7",
     "carbon-components": "10.10.1",
     "carbon-components-react": "7.10.1",
-    "gatsby": "^2.19.43",
+    "gatsby": "^2.32.13",
     "gatsby-image": "^2.2.43",
     "gatsby-plugin-manifest": "^2.2.47",
     "gatsby-plugin-offline": "^3.0.40",
